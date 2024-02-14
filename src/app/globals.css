@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind base;
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -28,6 +29,7 @@ body {
 }
 
 @layer utilities {
+
   .text-balance {
     text-wrap: balance;
   }
@@ -37,7 +39,32 @@ body {
     clip-path: polygon(800px 903px, 800px 903px, 802.433012px 902.803668px, 804.741056px 902.235264px, 806.893244px 901.325676px, 808.858688px 900.105792px, 810.6065px 898.6065px, 812.105792px 896.858688px, 813.325676px 894.893244px, 814.235264px 892.741056px, 814.803668px 890.433012px, 815px 888px, 815px 686.5px, 815px 686.5px, 815.196332px 684.066988px, 815.764736px 681.758944px, 816.674324px 679.606756px, 817.894208px 677.641312px, 819.3935px 675.8935px, 821.141312px 674.394208px, 823.106756px 673.174324px, 825.258944px 672.264736px, 827.566988px 671.696332px, 830px 671.5px, 1634px 671.5px, 1634px 671.5px, 1636.43204px 671.303668px, 1638.73952px 670.735264px, 1640.89148px 669.825676px, 1642.85696px 668.605792px, 1644.605px 667.1065px, 1646.10464px 665.358688px, 1647.32492px 663.393244px, 1648.23488px 661.241056px, 1648.80356px 658.933012px, 1649px 656.5px, 1649px 16.9757px, 1649px 16.9757px, 1648.80384px 14.54361551px, 1648.23592px 12.23637728px, 1647.32708px 10.08484217px, 1646.10816px 8.11986704px, 1644.61px 6.37230875px, 1642.86344px 4.87302416px, 1640.89932px 3.65287013px, 1638.74848px 2.74270352px, 1636.44176px 2.17338119px, 1634.01px 1.97576px, 16.0089px 1.00897px, 16.0089px 1.00897px, 13.57472512px 1.20399712px, 11.26547456px 1.77144256px, 9.11207544px 2.68039744px, 7.14545488px 3.89995288px, 5.39654px 5.3992px, 3.89625792px 7.14722992px, 2.67553576px 9.11313376px, 1.76530064px 11.26600264px, 1.19647968px 13.57492768px, 1px 16.009px, 1px 888px, 1px 888px, 1.19632471px 890.433012px, 1.76471008px 892.741056px, 2.67427297px 894.893244px, 3.89413024px 896.858688px, 5.39339875px 898.6065px, 7.14119536px 900.105792px, 9.10663693px 901.325676px, 11.25884032px 902.235264px, 13.56692239px 902.803668px, 16px 903px, 800px 903px);
   }
 
-  .border-color {
+  .border-all {
+    border-width: 2px;
     border-color: #19192C;
+    border-radius: 1rem;
   }
+  .scrollbar {
+    scrollbar-width: thin;
+    scrollbar-arrow-color: #19192c00;
+    scrollbar-color: #b9a0ff36 #ffffff00;
+  }
+
+  .button-all:hover .button-arrow {
+    rotate: -45deg;
+  }
+}
+
+@Layer base{
+
+  @font-face {
+    font-family: "Replica-Bold";
+    src: local(Replica-Bold), url("../../public/fonts/Replica-Bold\ Regular.ttf") format(truetype);
+  }
+  
+  @font-face {
+    font-family: "ReplicaPro-Light";
+    src: local(ReplicaPro-Light), url(../../public/fonts/ReplicaPro-Light.ttf) format(truetype);
+  }
+
 }
