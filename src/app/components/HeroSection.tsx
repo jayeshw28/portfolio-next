@@ -4,7 +4,6 @@ const HeroSection = () => {
   return (
     <div className='grid grid-rows-4 grid-cols-4 lg:grid-rows-8 lg:grid-cols-8 gap-5 my-5 text-slate-500 w-full h-screen'>
       <div className='flex flex-col p-6 font-[Replica-Bold] text-4xl lg:text-7xl text-[#003F30] justify-center align-middle col-span-4 row-span-2 lg:col-span-5 lg:row-span-4 bg-[#EDFAE4] border-all'>
-        <div></div>
         <h1>Hello!</h1>
         <h1>I am</h1>
         <h1>aka Jayesh Wankhede</h1>

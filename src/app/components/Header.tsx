@@ -40,7 +40,7 @@ const Header = () => {
         <ul className={` ${menu_class} flex flex-col justify-center transition-[0.25s] duration-[ease-in-out]`}>
           {
             links.map(link => (
-              <li className=' text-[#19192C] cursor-pointer m-[15px]'
+              <li className=' text-[#19192C] font-[ReplicaPro-Light] text-lg text-extrabold hover:font-[Replica-Bold] hover:border-b-2 hover:border-b-[#19192C] cursor-pointer m-[15px] transition-[0.25s] duration-[ease-in-out]'
                 key={link.hash}>
                   <Link className=''
                     href={link.hash}>
