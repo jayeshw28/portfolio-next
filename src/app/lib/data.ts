@@ -30,28 +30,60 @@ export const links = [
 export const media_links = [
   {
     name: "Instagram",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
     link: "",
   },
   {
     name: "Github",
-    img:"",
+    img:"https://i.ibb.co/zscMCcz/Github-Logo-1-Streamline-Ultimate-svg.png",
     link: "",
   },
   {
     name: "Linkedin",
-    img:"",
+    img:"https://i.ibb.co/yW34JQN/Linkdin.png",
     link: "",
   },
   {
     name: "Behance",
-    img:"",
+    img:"https://i.ibb.co/p38q5Cg/Behance.png",
     link: "",
   },
   {
     name: "facebook",
-    img:"",
+    img:"https://i.ibb.co/FndV1h4/facebook.png",
     link: "",
+  },
+  {
+    name: "Dribble",
+    img:"https://i.ibb.co/tD6mLJK/Dribble.png",
+    link: "",
+  },
+] as const;
+
+export const works = [
+  {
+    title: "IIIT Kota official website",
+    position: "Core Web Team Member",
+    location: "Remote/Hybrid",
+    time: "2023-current",
+  },
+  {
+    title: "IIITians Network",
+    position: "Lead Designer & Senior Executive",
+    location: "Remote",
+    time: "2023(8months)",
+  },
+  {
+    title: "Web3nest",
+    position: "UI/UX Design Intern",
+    location: "Remote",
+    time: "2023(July-Aug)",
+  },
+  {
+    title: "CACS IIIT Kota",
+    position: "Web Team - UI Designer",
+    location: "MNIT, Jaipur, Rajasthan, India",
+    time: "2023(Jan-March)",
   },
 ] as const;
 
