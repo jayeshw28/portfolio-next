@@ -187,23 +187,36 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  {title:'Data Structures & Algorithms'},
+  {title:'UI/UX Design'},
+  {title:'Web Development'},
+  {title:'Programming'},
+  {title:'Graphic Designing'},
+  {title:'Logo Designing'},
+  {title:'Sketching'},
 ] as const;
+
+export const languagesData = [
+  {title:'C/C++'},
+  {title:'Python'},
+  {title:'Java'},
+  {title:'JavaScript'},
+  {title:'HTML'},
+  {title:'CSS/SASS/SCSS'},
+  {title:'SQL'},
+] as const;
+
+ export const toolsData = [
+  {title:'ReactJS'},
+  {title:'NodeJS'},
+  {title:'Framer Motion'},
+  {title:'Bootstrap'},
+  {title:'Express'},
+  {title:'Spline'},
+  {title:'Blender'},
+  {title:'Figma'},
+  {title:'Canva'},
+  {title:'Web Flow'},
+  {title:'Adobe Photoshop'},
+  {title:'Adobe Lightroom'},
+ ] as const;
