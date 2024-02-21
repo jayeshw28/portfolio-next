@@ -89,9 +89,9 @@ const about = () => {
         <p className='font-[Replica-Bold] text-5xl'>aka.</p>
         <p>A guy who is passionate artist but also tech geek, and landed to this field, trying to advancing in both ;)</p>
       </div>
-      <div className='col-span-7 row-span-2 border-all bg-[#DEECEC] text-[#003F30] p-6 flex justify-between overflow-x-auto'>
+      <div className='col-span-7 row-span-2 border-all bg-[#DEECEC] text-[#003F30] p-6 flex justify-between npm install tailwind-scrollbar-hide'>
         <div className='font-[Replica-Bold] text-4xl self-end'>STACK</div>
-        <div className='relative flex '>
+        <div className='relative flex'>
         <div className='flex p-1 bg-[#19192c46] rounded-xl'>
         <div className='fixed h-full w-20 bg-[#000000]'/>
           {
