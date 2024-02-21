@@ -1,5 +1,5 @@
 import React from 'react'
-import { media_links, works } from '../lib/data'
+import { media_links, works, stack } from '../lib/data'
 import { fetchWeather } from '../utils/weather';
 
 const about = () => {
@@ -71,7 +71,7 @@ const about = () => {
           <p>SKILLS</p>
           <p className='font-[ReplicaPro-Light] text-6xl'>↗</p>
         </div>
-        <div className='font-[ReplicaPro-Light] text-xl font-bold'>
+        <div className='font-[ReplicaPro-Light] text-xl font-bold '>
           <ul>
             <li>UI/UX Design</li>
             <li>Web Development</li>
@@ -89,7 +89,23 @@ const about = () => {
         <p className='font-[Replica-Bold] text-5xl'>aka.</p>
         <p>A guy who is passionate artist but also tech geek, and landed to this field, trying to advancing in both ;)</p>
       </div>
-      <div className='col-span-7 row-span-2 border-all bg-[#DEECEC] text-[#003F30] p-6 '>08</div>
+      <div className='col-span-7 row-span-2 border-all bg-[#DEECEC] text-[#003F30] p-6 flex justify-between overflow-x-auto'>
+        <div className='font-[Replica-Bold] text-4xl self-end'>STACK</div>
+        <div className='relative flex '>
+        <div className='flex p-1 bg-[#19192c46] rounded-xl'>
+        <div className='fixed h-full w-20 bg-[#000000]'/>
+          {
+            stack.map(stack => (
+              <ul className='flex justify-center align-middle'>
+                <li className='bg-black p-2 m-2 rounded-[4px] flex justify-center'>
+                  <img className='' src={stack.img}/>
+                </li>
+              </ul>
+            ))
+          }
+        </div>
+        </div>
+      </div>
       <div className='col-span-2 row-span-2 border-all bg-[#C3FFB2] text-[#003F30] p-6 '>09</div>
     </div>
   )
