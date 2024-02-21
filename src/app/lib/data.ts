@@ -90,47 +90,47 @@ export const works = [
 export const stack = [
   {
     name: "React",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
   {
     name: "Next.js",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+  },
+  {
+    name: "Figma",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+  },
+  {
+    name: "Three js",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
   {
     name: "Tailwind",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
   {
     name: "MongoDB",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
   {
     name: "Redux",
-    img:"",
-  },
-  {
-    name: "Apollo",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
   {
     name: "Express",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
   {
     name: "PostgreSQL",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
   {
     name: "Python",
-    img:"",
-  },
-  {
-    name: "Django",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
   {
     name: "Framer Motion",
-    img:"",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
   },
 ] as const;
 
