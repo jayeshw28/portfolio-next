@@ -64,6 +64,10 @@ body {
       transform:rotate(360deg); 
     } 
   }
+
+  .text-stroke {
+    -webkit-text-stroke: 2px #19192C;
+  }
 }
 
 @Layer base{
