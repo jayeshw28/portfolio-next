@@ -11,7 +11,7 @@ const project = () => {
             {
                 projectsData.map(projectsData => (
                     <ul>
-                        <li className='bg-[#B9A0FF] border-all p-6 flex flex-wrap lg:justify-between justify-end hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+                        <li className='bg-[#B9A0FF] text-[#19192C] border-all p-6 flex flex-wrap lg:justify-between justify-end hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
                             <div className='flex flex-col flex-wrap justify-between space-y-2'>
                                 <p className='font-[Replica-Bold] text-4xl'>{projectsData.title}</p>
                                 <p>{projectsData.description}</p>
