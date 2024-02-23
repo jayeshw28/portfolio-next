@@ -3,7 +3,7 @@ import { languagesData, skillsData, toolsData } from '../lib/data'
 
 const Skills = () => {
   return (
-    <div className='w-full h-fit lg:h-screen lg:flex my-5'>
+    <div className='w-full h-fit lg:h-screen lg:flex my-5 mb-10'>
         <div className='w-full lg:w-1/2 bg-[#B9A0FF] text-[#003F30] p-10 flex flex-col justify-between font-[ReplicaPro-Light] text-xl'>
             <div>
                 <p className='font-[Replica-Bold] text-5xl mb-6'>Skills</p>
