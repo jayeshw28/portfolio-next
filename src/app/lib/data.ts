@@ -74,7 +74,7 @@ export const works = [
     time: "2023(8months)",
   },
   {
-    title: "Web3nest",
+    title: "Web3nest Technologies",
     position: "UI/UX Design Intern",
     location: "Remote",
     time: "2023(July-Aug)",
