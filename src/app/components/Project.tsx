@@ -25,7 +25,7 @@ const project = () => {
                                     ))}
                                 </div>
                             </div>
-                            <button className='font-[ReplicaPro-Light] text-6xl lg:text-8xl self-end justify-self-end hover:text-[#B9A0FF] hover:text-stroke'>↗</button>
+                            <button className='flex flex-row justify-end w-full lg:w-fit items-center font-[ReplicaPro-Light] text-6xl lg:text-8xl hover:text-[#003F30] hover:text-stroke-2'>↗</button>
                         </li>
                     </ul>
                 ))

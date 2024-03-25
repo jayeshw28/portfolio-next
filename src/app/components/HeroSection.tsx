@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className='text-[#B9A0FF] p-6 overflow-y-auto scroll-smooth scrollbar hidden lg:block lg:col-span-1 lg:row-span-2 bg-[#19192C] border-all'>
         <p>Hey there, I'm Compy! Just so you know, I've got my eyes on your mouse moves and keyboard taps for security reasons</p>
       </div>
-      <a className='button-all flex flex-col justify-between p-6 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-3xl text-[#003F30] bg-[#C3FFB2] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+      <a className='button-all flex flex-col justify-between p-6 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-xl lg:text-3xl text-[#003F30] bg-[#C3FFB2] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
         <p>Resume</p>
         <div className='flex justify-end'>
           <button className='border border-[#003F30] px-2 py-1 rounded-[6px]'>
@@ -33,7 +33,7 @@ const HeroSection = () => {
           </button>
         </div>
       </a>
-      <a className='button-all flex flex-col justify-between p-6 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-3xl text-[#C3FFB2] bg-[#003F30] border-all border-[#C3FFB2 !important] hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+      <a className='button-all flex flex-col justify-between p-6 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-xl lg:text-3xl text-[#C3FFB2] bg-[#003F30] border-all border-[#C3FFB2 !important] hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
       <p>Contact</p>
         <div className='flex justify-end'>
           <button className='border border-[#C3FFB2] px-2 py-1 rounded-[6px]'>
