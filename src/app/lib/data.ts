@@ -164,10 +164,16 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "iphone-three-js",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "This is an single page iPhone 14 pro preview website with 3D preview model using Three.Js, WebGi & GSAP. ",
+    tags: ["React", "Three.Js", "WebGi", "GSAP"],
+  },
+  {
+    title: "College Fest Website UI Design",
+    description:
+      "User Interface Design of College fest website, all responsive design layout,wireframes with appropriate color pallet and functionality broad design feature.",
+    tags: ["Figma","FigJam", "Adobe XD", "Adobe Illustrator"],
   },
 ] as const;
 
