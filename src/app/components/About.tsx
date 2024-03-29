@@ -85,7 +85,7 @@ const about = () => {
           <p className='font-[Replica-Bold] text-7xl' dangerouslySetInnerHTML={{ __html: CurrentTime() }} />
           <p className='opacity-35'>current local time</p>
       </div>
-      <div className='col-span-3 row-span-4 border-all bg-[#003F30] text-[#B9A0FF] p-6 ont-[ReplicaPro-Light] text-xl flex flex-col justify-between'>
+      <div className='col-span-3 row-span-4 border-all bg-[#003F30] text-[#B9A0FF] p-6 font-[ReplicaPro-Light] text-xl flex flex-col justify-between'>
         <p className='font-[Replica-Bold] text-5xl'>aka.</p>
         <p>A guy who is passionate artist but also tech geek, and landed to this field, trying to advancing in both ;)</p>
       </div>
