@@ -4,7 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Experience from "./components/Experience";
-import Contact from "./components/Contact";
+import Contact from "./components/ContactForm";
 
 export default function Home() {
   return (
@@ -16,7 +16,9 @@ export default function Home() {
       <Skills/>
       <Project/>
       <Experience/>
-      <Contact/>
+      <div className="mx-10">
+        <Contact/>
+      </div>
     </main>
   );
 }
