@@ -28,7 +28,7 @@ const Header = () => {
       <div className='flex flex-col h-fit self-center z-[5] my-5 mx-10 p-4 bg-[#EDFAE4] backdrop-blur-[2px] border-[2px] border-[#19192C] bg-opacity-60 bg-blend-normal rounded-2xl transition-[0.25s] duration-[ease-in-out]'>
         <div className='flex h-full w-full justify-between items-center self-center'>
           <div className='self-center cursor-pointer rounded-lg mx-[5px] hover:stroke-[#19192C] hover:transition-[0.25s] hover:duration-[ease-in-out]'>
-          <img className='size-9/12' src="https://i.ibb.co/FJ4CQKN/JAYX.png" alt="JAYX"/>
+          <img className='size-[75%]' src="https://i.ibb.co/FJ4CQKN/JAYX.png" alt="JAYX"/>
           </div>
           <div onClick={UpdateMenu} className='w-11 h-11 z-[5] justify-around flex flex-col cursor-pointer'>
             <div className={`${burger_class} w-11 h-2 bg-[#19192C] rotate-0 transition-[0.25s] duration-[ease-in-out] rounded-lg `}></div>
