@@ -60,6 +60,29 @@ export const media_links = [
   },
 ] as const;
 
+export const contact_links = [
+  {
+    name: "Instagram",
+    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    link: "",
+  },
+  {
+    name: "Github",
+    img:"https://i.ibb.co/zscMCcz/Github-Logo-1-Streamline-Ultimate-svg.png",
+    link: "",
+  },
+  {
+    name: "Linkedin",
+    img:"https://i.ibb.co/yW34JQN/Linkdin.png",
+    link: "",
+  },
+  {
+    name: "facebook",
+    img:"https://i.ibb.co/FndV1h4/facebook.png",
+    link: "",
+  },
+] as const;
+
 export const works = [
   {
     title: "IIIT Kota official website",
