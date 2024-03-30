@@ -1,6 +1,7 @@
 import React from 'react'
 import { contact_links, links } from '../lib/data'
 import Link from 'next/link'
+import Eyes from './Eyes'
 
 const Footer = () => {
   return (
@@ -54,6 +55,8 @@ const Footer = () => {
                 <div className='text-center text-lg text-[#b9a0ff]'>
                     Thanks for coming this far, I hope you liked my portfolio:)
                 </div>
+                <Eyes/>
+
             </div>
 
             <div className='w-full lg:w-2/6 flex flex-col space-y-6 self-end justify-center items-center lg:justify-start lg:items-start font-[Replica-Bold]'>
