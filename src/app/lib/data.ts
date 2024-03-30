@@ -200,6 +200,14 @@ export const projectsData = [
   },
 ] as const;
 
+export const roles = [
+  {titles:'UI/UX Designer'},
+  {titles:'Web Developer'},
+  {titles:'Programmer'},
+  {titles:'Graphic Designer'},
+  {titles:'Sketch Artist'},
+] as const;
+
 export const skillsData = [
   {title:'Data Structures & Algorithms'},
   {title:'UI/UX Design'},
