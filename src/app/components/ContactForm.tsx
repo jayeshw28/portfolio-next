@@ -13,7 +13,7 @@ const Contact = () => {
   const sendMail = async (e: any) => {
     e.preventDefault();
 
-    const response = await fetch('/api/sendEmail',{
+    const response = await fetch('/api/send',{
       method: 'POST',
       headers: {
         'content-type': 'application/json'
