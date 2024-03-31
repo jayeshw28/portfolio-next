@@ -32,25 +32,30 @@ const HeroSection = () => {
         <div className='relative'>
           <span className='relative mr-4 w-full'>I am </span>
             {['UI/UX Designer', 'Web Developer', 'Programmer', 'Graphic Designer', 'Sketch Artist'].map((title, index) => (
-              <span className=' absolute w-fit h-full content-none text-[#B9A0FF] stroke-[#19192C] break-words' key={index} id={`title-${index}`}>{title}<br/></span>
+              <span className='hidden lg:inline absolute w-fit h-full content-none text-[#B9A0FF] stroke-[#19192C] break-words' key={index} id={`title-${index}`}>{title}<br/></span>
+            ))}
+            {['UI/UX Designer', 'Web Developer', 'Programmer', 'Graphic Designer', 'Sketch Artist'].map((title, index) => (
+              <span className='lg:hidden flex absolute w-fit h-full content-none text-[#B9A0FF] stroke-[#19192C] break-words' key={index} id={`title-${index}`}>{title}<br/></span>
             ))}
         </div>
-        <h1 className='' >aka Jayesh Wankhede</h1>
+        <span className='lg:hidden flex text-[#EDFAE4]'>Placeholder<br/>Placeholder</span>
+        <h1 className=''>aka Jayesh Wankhede</h1>
       </div>
+
+
       <div className='hidden lg:col-span-3 lg:row-span-6 p-6 lg:flex justify-center items-center bg-[#B9A0FF] border-all'>
         compy model
       </div>
+
+
       <div className=' font-[ReplicaPro-Light] text-lg text-[#003F30]  p-6 hidden lg:block lg:col-span-4 lg:row-span-4 bg-[#F0D4D2] border-all'>
-        <div className='flex flex-col w-full h-full flex-wrap place-content-between'>
-          <div className='flex flex-col w-full space-y-2.5 justify-start mt-5 self-start'>
-            <p>try to type something and see what compy replies↗</p>
-            <input className='border-all p-2 w-3/4 bg-[#C3FFB2]' name='enter prompt'/>
-          </div>
-          <p className='text-4xl text-wrap overflow-hidden'>B.Tech Computer Science student with a flair for web development, UI/UX design, and programming.
-          <br/>Turning ideas into intuitive experiences.
-        </p>
+        <div className='flex flex-col w-full h-full flex-wrap justify-center'>
+            <p className='lg:text-4xl text-wrap'>B.Tech Computer Science student with a flair for web development, UI/UX design, and programming.Turning ideas into intuitive experiences.</p>
+            <a href='#'>Know more About me↗</a>
         </div>
       </div>
+
+
       <div className='text-[#B9A0FF] p-4 overflow-y-auto scroll-smooth scrollbar hidden lg:block lg:col-span-1 lg:row-span-2 bg-[#19192C] border-all'>
         <p className='text-center'>Hey there! Compy is monitoring mouse and keyboard activity.</p>
       </div>
