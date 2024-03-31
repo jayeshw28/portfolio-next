@@ -1,7 +1,7 @@
 import React from 'react'
 import { contact_links, links } from '../lib/data'
 import Link from 'next/link'
-import Eyes from './Eyes'
+import Eyes from '../utils/Eyes'
 
 const Footer = () => {
   return (
