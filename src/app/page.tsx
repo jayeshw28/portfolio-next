@@ -5,14 +5,14 @@ import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Contact from "./components/ContactForm";
-import Eyes from "./components/Eyes";
+import Eyes from "./utils/Eyes";
 
 export default function Home() {
   return (
     <main className="scrollbar flex min-h-screen flex-col" >
       <div className="mx-10">
         <HeroSection/>
-        {/* <About/> */}
+        <About/>
       </div>
       <Skills/>
       <Project/>
