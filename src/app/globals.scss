@@ -44,30 +44,6 @@ body {
     scrollbar-color: #b9a0ff36 #ffffff00;
   }
 
-  .button-all:hover .button-arrow {
-    rotate: -45deg;
-  }
-
-  .rotating {
-    animation: spin 4s linear infinite;
-  }
-  @-moz-keyframes spin {
-    100% {
-      -moz-transform: rotate(360deg);
-    }
-  }
-  @-webkit-keyframes spin {
-    100% {
-      -webkit-transform: rotate(360deg);
-    }
-  }
-  @keyframes spin {
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-
   .text-stroke-1 {
     -webkit-text-stroke: 1px #19192c;
   }
