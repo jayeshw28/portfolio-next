@@ -1,6 +1,6 @@
 import React from 'react'
 import { media_links, works, stack } from '../lib/data'
-import { fetchWeather } from '../api/weather/weather';
+import Weather from '../utils/weather';
 import Time from '../utils/Time';
 
 const about = () => { 
@@ -109,7 +109,9 @@ const about = () => {
         </div>
         </div>
       </div>
-      <div className='col-span-4 row-span-5 lg:col-span-2 lg:row-span-2 border-all bg-[#C3FFB2] text-[#003F30] p-6 '>09</div>
+      <div className='flex text-wrap w-full flex-wrap col-span-4 row-span-5 lg:col-span-2 lg:row-span-2 border-all bg-[#C3FFB2] text-[#003F30] lg:items-center px-5 py-6 lg:py-0'>
+        <Weather/>
+      </div>
     </div>
   )
 }
