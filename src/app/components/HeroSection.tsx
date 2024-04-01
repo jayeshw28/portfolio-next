@@ -49,8 +49,8 @@ const HeroSection = () => {
 
 
       <div className=' font-[ReplicaPro-Light] text-lg text-[#003F30]  p-6 hidden lg:block lg:col-span-4 lg:row-span-4 bg-[#F0D4D2] border-all'>
-        <div className='flex flex-col w-full h-full flex-wrap justify-center'>
-            <p className='lg:text-4xl text-wrap'>B.Tech Computer Science student with a flair for web development, UI/UX design, and programming.Turning ideas into intuitive experiences.</p>
+        <div className='flex flex-col w-full h-full flex-wrap justify-between'>
+            <p className='text 2xl lg:text-4xl text-wrap'>B.Tech Computer Science student with a flair for web development, UI/UX design, and programming.Turning ideas into intuitive experiences.</p>
             <a href='#'>Know more About me↗</a>
         </div>
       </div>
