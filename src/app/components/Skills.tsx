@@ -10,8 +10,9 @@ const Skills = () => {
                 {
                     skillsData.map(skillsData => (
                     <ul>
-                        <li>
-                            <p>{skillsData.title}</p>
+                        <li className='group flex hover:font-bold cursor-pointer flex-row justify-between'>
+                            <p>{skillsData.title} </p>
+                            <div className='hidden group-hover:block'>{skillsData.percent}%</div>
                         </li>
                     </ul>
                     ))
@@ -23,8 +24,9 @@ const Skills = () => {
                 {
                     languagesData.map(languagesData => (
                     <ul>
-                        <li>
+                        <li className='group flex hover:font-bold cursor-pointer flex-row justify-between'>
                             <p>{languagesData.title}</p>
+                            <div className='hidden group-hover:block'>{languagesData.percent}%</div>
                         </li>
                     </ul>
                     ))
@@ -41,8 +43,9 @@ const Skills = () => {
             {
                 toolsData.map(toolsData => (
                     <ul>
-                        <li>
+                        <li className='group flex hover:font-bold cursor-pointer flex-row justify-between'>
                             <p>{toolsData.title}</p>
+                            <div className='hidden group-hover:block'>{toolsData.percent}%</div>
                         </li>
                     </ul>
                 ))

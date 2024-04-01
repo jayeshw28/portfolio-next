@@ -21,7 +21,7 @@ const Footer = () => {
                             Links
                             {
                             links.map(link => (
-                            <li className=' text-[#19192C] font-[ReplicaPro-Light] text-lg cursor-pointer transition-[0.25s] hover: duration-[ease-in-out]'
+                            <li className=' text-[#19192C] hover:font-bold font-[ReplicaPro-Light] text-lg cursor-pointer transition-[0.25s] hover: duration-[ease-in-out]'
                             key={link.hash}>
                                 <Link className=''
                                 href={link.hash}>
@@ -32,19 +32,19 @@ const Footer = () => {
                             }
                         </ul>
                     </div>
-                    <a  className='button-all flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+                    <a  className='group cursor-pointer flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
                         <p className='flex justify-start'>Resume</p>
                         <div className='flex justify-end'>
                         <div className='border border-[#003F30] px-2 py-1 rounded-[6px]'>
-                            <p className='button-arrow transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>→</p>
+                            <p className='group-hover:-rotate-45 transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>→</p>
                         </div>
                         </div>
                     </a>
-                    <a  className='button-all flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+                    <a  className='group cursor-pointer flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
                         <p className='flex justify-start'>Contact</p>
                         <div className='flex justify-end'>
                         <div className='border border-[#003F30] px-2 py-1 rounded-[6px]'>
-                            <p className='button-arrow transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>→</p>
+                            <p className='group-hover:-rotate-45 transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>→</p>
                         </div>
                         </div>
                     </a>
