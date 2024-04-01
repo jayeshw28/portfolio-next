@@ -118,11 +118,11 @@ const Contact = () => {
               required/>
             
             <button onClick={UpdateClass} type='submit' className='w-[60%] md:w-[30%] lg:w-[28%]' >
-              <a  className='button-all flex flex-col justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#C3FFB2] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+              <a  className='group flex flex-col justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#C3FFB2] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
                 <p className='flex justify-start'>Submit</p>
                 <div className='flex justify-end'>
                   <div className='border border-[#003F30] px-2 py-1 rounded-[6px]'>
-                    <p className='button-arrow transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>→</p>
+                    <p className='group-hover:-rotate-45 transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>→</p>
                   </div>
                 </div>
               </a>
