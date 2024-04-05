@@ -113,47 +113,43 @@ export const works = [
 export const stack = [
   {
     name: "React",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/NSDYkwX/react.png",
   },
   {
     name: "Next.js",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/2MDRz18/nextjs7685-logowik-1.png",
   },
   {
     name: "Figma",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/kMCVFby/Figma.png",
   },
   {
     name: "Three js",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/X8vWT1X/Frame-43.png",
   },
   {
     name: "Tailwind",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/CQK5xrq/Tailwind-Css.png",
   },
   {
     name: "MongoDB",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/XbcP7Nq/pngwing-1.png",
   },
   {
     name: "Redux",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/2qwNRdH/Redux.png",
   },
   {
     name: "Express",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
-  },
-  {
-    name: "PostgreSQL",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/zm9vLPM/Java-Script-logo-1.png",
   },
   {
     name: "Python",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/BNJp28W/icon-Python.png",
   },
   {
     name: "Framer Motion",
-    img:"https://i.ibb.co/TgPFFwv/instagram.png",
+    img:"https://i.ibb.co/LdXZhnY/icon-framer.png",
   },
 ] as const;
 

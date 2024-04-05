@@ -11,6 +11,7 @@ const HeroSection = () => {
     titles.forEach((title, index) => {
       tl.from(`#title-${index}`, {
         opacity: 0,
+        delay: 0.25,
         y: -15,
       },"<")
       .to(`#title-${index}`,{
@@ -19,6 +20,7 @@ const HeroSection = () => {
       },"<1")
       .to(`#title-${index}`,{
         opacity: 0,
+        delay: 0.25,
         y: 15,
       },"<2")
     });
