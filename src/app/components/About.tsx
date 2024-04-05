@@ -47,8 +47,8 @@ const about = () => {
           {
             works.map(works => (
               <ul className=''>
-                <li className='flex flex-row p-2'>
-                  <div>
+                <li className='flex flex-row justify-between p-1'>
+                  <div className='flex flex-col justify-between'>
                     <p className='font-[Replica-Bold] text-base'>{works.title}</p>
                     <p className='text-base'>{works.position}</p>
                   </div>
@@ -92,21 +92,19 @@ const about = () => {
       </div>
 
 
-      <div className='hidden col-span-7 row-span-2 border-all bg-[#DEECEC] text-[#003F30] p-6 lg:flex justify-between npm install tailwind-scrollbar-hide'>
-        <div className='font-[Replica-Bold] text-4xl self-end'>STACK</div>
-        <div className='relative flex'>
-        <div className='flex p-1 bg-[#19192c46] rounded-xl'>
-        <div className='fixed h-full w-20 bg-[#000000]'/>
-          {
-            stack.map(stack => (
-              <ul className='flex justify-center align-middle'>
-                <li className='bg-black p-2 m-2 rounded-[4px] flex justify-center'>
-                  <img className='' src={stack.img}/>
-                </li>
-              </ul>
-            ))
-          }
-        </div>
+      <div className='w-full h-full hidden overflow-y-auto col-span-7 row-span-2 border-all bg-[#DEECEC] text-[#003F30] p-4 lg:flex justify-between items-center'>
+        <div className='font-[Replica-Bold] w-1/2 text-4xl self-end'>STACK</div>
+        <div className='flex w-full space-x-2 p-2 rounded-md bg-[#19192c52]'>
+            {
+              stack.map(stack => (
+                <ul className='flex space-x-1 '>
+                  <li className='bg-black p-1 rounded-[4px]'>
+                    <img className='size-[100%] cursor-pointer' alt={stack.name} src={stack.img}/>
+                  </li>
+                </ul>
+              ))
+            }
+          {/* <div className='place-self-end self-end h-full w-20 z-20 bg-[#000000]'/> */}
         </div>
       </div>
       <div className='flex text-wrap w-full flex-wrap col-span-4 row-span-5 lg:col-span-2 lg:row-span-2 border-all bg-[#C3FFB2] text-[#003F30] lg:items-center px-5 py-6 lg:py-0'>
