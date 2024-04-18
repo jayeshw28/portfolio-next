@@ -16,16 +16,14 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
 body {
-  /* color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-  background-image: url("https://i.ibb.co/nC9pMH3/1609-m00-i125-n001-S-c12-198623492-Topographic-contour-lines-vector-map-seamless-pattern.jpg");
+  --background-image-light: url("https://i.ibb.co/nC9pMH3/1609-m00-i125-n001-S-c12-198623492-Topographic-contour-lines-vector-map-seamless-pattern.jpg");
+  --background-image-dark: url("https://i.ibb.co/5GfVQCy/1609-m00-i125-n001-S-c12-198623492-Topographic-contour-lines-vector-map-seamless-pattern-1.jpg");
+  background-image: var(--background-image-light);
+
+  &.dark {
+    background-image: var(--background-image-dark);
+  }
 }
 
 @layer utilities {

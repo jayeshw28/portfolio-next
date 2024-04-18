@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Contact from "./components/ContactForm";
 import Eyes from "./utils/Eyes";
+import Loader from "./components/Loader";
 
 export default function Home() {
   return (
