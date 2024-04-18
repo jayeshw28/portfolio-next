@@ -29,7 +29,7 @@ const about = () => {
         <div className='flex flex-wrap justify-between content-between w-full h-full'>
         {
           media_links.map(media_links => (
-            <div className=' border-all text-xl justify-center items-center p-2 m-1 ml-0 bg-[#19192C]'>
+            <div className=' border-all text-xl justify-center items-center p-2 m-1 ml-0 bg-[#B9A0FF] shadow-[-4px_4px_0px_#000000] translate-x-[6px] translate-y-[-6px] hover:shadow-[0px_0px_0px_#000000] hover:translate-x-[0px] hover:translate-y-[0px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
               <a className=' hover:opacity-50 transition-[0.25s] duration-[ease-in-out]'
                 href={media_links.link}>
                 <img className='size-14' src={media_links.img}/>
