@@ -2,6 +2,7 @@
 import gsap from 'gsap'
 import React, { useEffect } from 'react'
 import { SplitText } from 'gsap/dist/SplitText'
+import Model from '../utils/Model';
 
 const HeroSection = () => {
 
@@ -46,7 +47,7 @@ const HeroSection = () => {
 
 
       <div className='hidden lg:col-span-3 lg:row-span-6 p-6 lg:flex justify-center items-center bg-[#B9A0FF] border-all'>
-        compy model
+        <Model/>
       </div>
 
 
