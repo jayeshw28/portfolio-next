@@ -69,7 +69,7 @@ const Contact = () => {
     Setsubmit(!submit)
   }
   return (
-    <div className='lg:h-screen h-fit w-full flex flex-col flex-wrap mb-6 lg:justify-center content-center items-center'>
+    <div id='contact' className='lg:h-screen pb-5 h-fit w-full flex flex-col flex-wrap mb-6 lg:justify-center content-center items-center'>
       <div className='lg:relative z-40 lg:h-screen h-fit w-full flex flex-col flex-wrap justify-start lg:justify-end content-center items-center'>
         <div className={`${bg_class} w-[68%] absolute hidden rounded-b-lg lg:flex -z-10 h-[56%] bg-[#b9a0ff]`}/>
 

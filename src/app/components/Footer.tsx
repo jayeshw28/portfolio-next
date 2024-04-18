@@ -1,16 +1,16 @@
+
 import React from 'react'
 import { contact_links, links } from '../lib/data'
 import Link from 'next/link'
 import Eyes from '../utils/Eyes'
+import ScrolltoTop from '../utils/ScrolltoTop'
 
 const Footer = () => {
   return (
     <div className='mx-10 my-5 h-fit border-all bg-[#EDFAE4] p-4 flex flex-col justify-center items-center '>
         <div className='flex flex-row w-full items-center justify-between mb-3'>
             <img className='size-[40%] md:size-[20%] lg:size-[10%] cursor-pointer' src="https://i.ibb.co/FJ4CQKN/JAYX.png" alt="JAYX"/>
-            <div className='border w-fit h-fit cursor-pointer border-[#003F30] bg-[#b9a0ff] px-2 py-1 rounded-[6px] shadow-[-4px_4px_0px_#000000] translate-x-[6px] translate-y-[-6px] hover:shadow-[0px_0px_0px_#000000] hover:translate-x-[0px] hover:translate-y-[0px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
-                <p className='button-arrow text-3xl transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>↑</p>
-            </div>
+            <ScrolltoTop/>
         </div>
 
         <div className='w-full flex flex-col lg:flex-row '>
@@ -32,7 +32,7 @@ const Footer = () => {
                             }
                         </ul>
                     </div>
-                    <a  className='group cursor-pointer flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+                    <a href='https://drive.google.com/file/d/1dYjGGMpR-etsCm3j0iS7V9l3unl4diNG/view?usp=sharing' target='_blank' className='group cursor-pointer flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
                         <p className='flex justify-start'>Resume</p>
                         <div className='flex justify-end'>
                         <div className='border border-[#003F30] px-2 py-1 rounded-[6px]'>
@@ -40,7 +40,7 @@ const Footer = () => {
                         </div>
                         </div>
                     </a>
-                    <a  className='group cursor-pointer flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+                    <a href='#contact' className='group cursor-pointer flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
                         <p className='flex justify-start'>Contact</p>
                         <div className='flex justify-end'>
                         <div className='border border-[#003F30] px-2 py-1 rounded-[6px]'>
@@ -68,7 +68,7 @@ const Footer = () => {
                     contact_links.map(contact_links => (
                         <div className='rounded-full m-2 border-[#19192c] border-[2px] cursor-pointer w-fit h-fit text-xl justify-center items-center p-2 bg-gradient-to-r from-[#d1c0ff] to-[#b9a0ff] hover:bg-[#19192c] shadow-[-4px_4px_0px_#000000] translate-x-[6px] translate-y-[-6px] hover:shadow-[0px_0px_0px_#000000] hover:translate-x-[0px] hover:translate-y-[0px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
                         <a className='transition-[0.25s] duration-[ease-in-out]'
-                            href={contact_links.link}>
+                            href={contact_links.link} target='_blank'>
                             <img className='size-6 md:size-10 lg:size-8 xl:size-12' src={contact_links.img}/>
                         </a>
                         </div>

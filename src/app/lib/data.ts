@@ -31,32 +31,32 @@ export const media_links = [
   {
     name: "Instagram",
     img:"https://i.ibb.co/TgPFFwv/instagram.png",
-    link: "",
+    link: "https://www.instagram.com/jayesh_wankhede_/",
   },
   {
     name: "Github",
     img:"https://i.ibb.co/zscMCcz/Github-Logo-1-Streamline-Ultimate-svg.png",
-    link: "",
+    link: "https://github.com/jayeshw28",
   },
   {
     name: "Linkedin",
     img:"https://i.ibb.co/yW34JQN/Linkdin.png",
-    link: "",
+    link: "https://www.linkedin.com/in/jayesh-wankhede-5b494a22a/",
   },
   {
-    name: "Behance",
-    img:"https://i.ibb.co/p38q5Cg/Behance.png",
-    link: "",
+    name: "Coding Ninjas",
+    img:"https://i.ibb.co/TtF84T4/codingninjas-svgrepo-com-1.png",
+    link: "https://www.naukri.com/code360/profile/c2c5bab9-1c22-473c-909e-d05118d7f1a9",
   },
   {
-    name: "facebook",
-    img:"https://i.ibb.co/FndV1h4/facebook.png",
-    link: "",
+    name: "figma",
+    img:"https://i.ibb.co/gvzWx0N/Figma.png",
+    link: "https://www.figma.com/@JayeshW28",
   },
   {
-    name: "Dribble",
-    img:"https://i.ibb.co/tD6mLJK/Dribble.png",
-    link: "",
+    name: "LeetCode",
+    img:"https://i.ibb.co/4S0WJRH/leetcode-1.png",
+    link: "https://leetcode.com/jayeshw28/",
   },
 ] as const;
 
@@ -64,22 +64,22 @@ export const contact_links = [
   {
     name: "Instagram",
     img:"https://i.ibb.co/TgPFFwv/instagram.png",
-    link: "",
+    link: "https://www.instagram.com/jayesh_wankhede_/",
   },
   {
     name: "Github",
     img:"https://i.ibb.co/zscMCcz/Github-Logo-1-Streamline-Ultimate-svg.png",
-    link: "",
+    link: "https://github.com/jayeshw28",
   },
   {
     name: "Linkedin",
     img:"https://i.ibb.co/yW34JQN/Linkdin.png",
-    link: "",
+    link: "https://www.linkedin.com/in/jayesh-wankhede-5b494a22a/",
   },
   {
-    name: "facebook",
-    img:"https://i.ibb.co/FndV1h4/facebook.png",
-    link: "",
+    name: "figma",
+    img:"https://i.ibb.co/gvzWx0N/Figma.png",
+    link: "https://www.figma.com/@JayeshW28",
   },
 ] as const;
 
@@ -187,12 +187,14 @@ export const projectsData = [
     description:
       "This is an single page iPhone 14 pro preview website with 3D preview model using Three.Js, WebGi & GSAP. ",
     tags: ["React", "Three.Js", "WebGi", "GSAP"],
+    link: "https://jayeshiphone14.netlify.app/",
   },
   {
     title: "College Fest Website UI Design",
     description:
       "User Interface Design of College fest website, all responsive design layout,wireframes with appropriate color pallet and functionality broad design feature.",
     tags: ["Figma","FigJam", "Adobe XD", "Adobe Illustrator"],
+    link: "https://www.figma.com/community/file/1362923553384078489/music-fest-ui-website",
   },
 ] as const;
 

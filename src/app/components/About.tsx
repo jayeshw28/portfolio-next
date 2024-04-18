@@ -6,7 +6,7 @@ import Time from '../utils/Time';
 const about = () => { 
 
   return (
-    <div className='grid grid-rows-16 grid-cols-8 lg:grid-rows-12 lg:grid-cols-12 gap-5 my-5 py-1 w-full lg:h-screen '>
+    <div id='about' className='grid grid-rows-16 grid-cols-8 lg:grid-rows-12 lg:grid-cols-12 gap-5 my-5 py-1 w-full lg:h-screen '>
       
       <div className='hidden lg:block col-span-3 row-span-8 border-all overflow-hidden'>
         <img className='size-full' src="https://i.ibb.co/1JdVnzv/Whats-App-Image-2024-02-15-at-22-06-53.jpg"/>
@@ -31,7 +31,7 @@ const about = () => {
           media_links.map(media_links => (
             <div className=' border-all text-xl justify-center items-center p-2 m-1 ml-0 bg-[#B9A0FF] shadow-[-4px_4px_0px_#000000] translate-x-[6px] translate-y-[-6px] hover:shadow-[0px_0px_0px_#000000] hover:translate-x-[0px] hover:translate-y-[0px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
               <a className=' hover:opacity-50 transition-[0.25s] duration-[ease-in-out]'
-                href={media_links.link}>
+                href={media_links.link} target='_blank'>
                 <img className='size-14' src={media_links.img}/>
               </a>
               </div>
