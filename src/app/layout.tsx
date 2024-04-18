@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import { ToastContainer } from "./nextoast";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
+import ThemeSwitch from "./components/ThemeSwitch";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         {children}
         <Footer/>
         <ToastContainer/>
+        <ThemeSwitch/>
       </body>
     </html>
   );
