@@ -22,16 +22,16 @@ const about = () => {
         </p>
       </div>
       
-      <div className='col-span-8 row-span-3 lg:col-span-3 lg:row-span-3 flex flex-col lg:flex-row font-[Replica-Bold] text-[#19192C] text-5xl font-bold items-center lg:items-start'>
+      <div className='col-span-8 row-span-3 lg:col-span-3 lg:row-span-3 flex flex-col lg:flex-row font-[Replica-Bold] text-[#19192C] text-stroke-2 text-5xl font-bold items-center lg:items-start'>
         <p className='hidden lg:block mr-5'>LIN<br/>KS:</p>
         <p className='lg:hidden block w-full'>LINKS:</p>
         <div className='flex flex-wrap justify-between content-between w-full h-full'>
         {
           media_links.map(media_links => (
-            <div key={media_links.id} className=' border-all text-xl justify-center items-center p-2 m-1 ml-0 bg-[#B9A0FF] shadow-[-4px_4px_0px_#000000] translate-x-[6px] translate-y-[-6px] hover:shadow-[0px_0px_0px_#000000] hover:translate-x-[0px] hover:translate-y-[0px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+            <div key={media_links.id} className=' border-all -z-10 text-xl justify-center items-center p-2 m-1 ml-0 bg-[#B9A0FF] shadow-[-4px_4px_0px_#000000] translate-x-[6px] translate-y-[-6px] hover:shadow-[0px_0px_0px_#000000] hover:translate-x-[0px] hover:translate-y-[0px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
               <a className=' hover:opacity-50 transition-[0.25s] duration-[ease-in-out]'
                 href={media_links.link} target='_blank'>
-                <img className='size-14' src={media_links.img}/>
+                <img className='size-14 lg:size-12' src={media_links.img}/>
               </a>
               </div>
             ))

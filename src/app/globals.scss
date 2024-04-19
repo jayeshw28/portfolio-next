@@ -63,10 +63,15 @@ html {
   }
 
   .text-stroke-1 {
-    -webkit-text-stroke: 1px #19192c;
+    -webkit-text-stroke: 0.25px #19192c;
   }
   .text-stroke-2 {
-    -webkit-text-stroke: 1px #f0d4d2;
+    --text-stroke-dark: 0.1px #f0d4d2;
+    --text-stroke-light: 0px #f0d4d2;
+    -webkit-text-stroke: var(--text-stroke-dark);
+    &.dark {
+      -webkit-text-stroke: var(--text-stroke-light);
+    }
   }
 
   .preserve-3d {
