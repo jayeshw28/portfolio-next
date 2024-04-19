@@ -11,7 +11,6 @@
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "axios": "^1.6.7",
-    "eslint-plugin-react": "^7.34.1",
     "framer-motion": "^11.0.3",
     "gsap": "^3.12.5",
     "next": "14.1.0",
@@ -30,8 +29,9 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
-    "eslint": "^8",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.1.0",
+    "eslint-plugin-react": "^7.34.1",
     "postcss": "^8",
     "tailwind-scrollbar": "^3.1.0",
     "tailwindcss": "^3.4.1",
