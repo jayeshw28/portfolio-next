@@ -15,7 +15,7 @@ const about = () => {
 
       <div className='col-span-8 row-span-5 lg:col-span-6 lg:row-span-5 border-all p-6 bg-[#003F30] text-[#B9A0FF] flex flex-col justify-between lg:overflow-hidden overflow-y-auto scroll-smooth scrollbar'>
         <div className='font-[Replica-Bold] text-5xl'>
-          I'm Jayesh!
+          I&apos;m Jayesh!
         </div>
         <p className='font-[ReplicaPro-Light] text-xl'>
           I am Jayesh Wankhede, perusing B.Tech graduate in Computer Science Engineering from Indian Institute of Information Technology, Kota (IIITK) specializing in Frontend Development and UI/UX Design. With a natural flair for creativity and critical thinking, I excel in product design and UI/UX. My expertise lies in creating visually appealing and intuitive interfaces, while my strong web development skills enable me to deliver seamless user experiences.
@@ -28,7 +28,7 @@ const about = () => {
         <div className='flex flex-wrap justify-between content-between w-full h-full'>
         {
           media_links.map(media_links => (
-            <div className=' border-all text-xl justify-center items-center p-2 m-1 ml-0 bg-[#B9A0FF] shadow-[-4px_4px_0px_#000000] translate-x-[6px] translate-y-[-6px] hover:shadow-[0px_0px_0px_#000000] hover:translate-x-[0px] hover:translate-y-[0px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+            <div key={media_links.id} className=' border-all text-xl justify-center items-center p-2 m-1 ml-0 bg-[#B9A0FF] shadow-[-4px_4px_0px_#000000] translate-x-[6px] translate-y-[-6px] hover:shadow-[0px_0px_0px_#000000] hover:translate-x-[0px] hover:translate-y-[0px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
               <a className=' hover:opacity-50 transition-[0.25s] duration-[ease-in-out]'
                 href={media_links.link} target='_blank'>
                 <img className='size-14' src={media_links.img}/>

@@ -32,31 +32,37 @@ export const media_links = [
     name: "Instagram",
     img:"https://i.ibb.co/TgPFFwv/instagram.png",
     link: "https://www.instagram.com/jayesh_wankhede_/",
+    id: 1,
   },
   {
     name: "Github",
     img:"https://i.ibb.co/zscMCcz/Github-Logo-1-Streamline-Ultimate-svg.png",
     link: "https://github.com/jayeshw28",
+    id: 2,
   },
   {
     name: "Linkedin",
     img:"https://i.ibb.co/yW34JQN/Linkdin.png",
     link: "https://www.linkedin.com/in/jayesh-wankhede-5b494a22a/",
+    id: 3,
   },
   {
     name: "Coding Ninjas",
     img:"https://i.ibb.co/TtF84T4/codingninjas-svgrepo-com-1.png",
     link: "https://www.naukri.com/code360/profile/c2c5bab9-1c22-473c-909e-d05118d7f1a9",
+    id: 4,
   },
   {
     name: "figma",
     img:"https://i.ibb.co/gvzWx0N/Figma.png",
     link: "https://www.figma.com/@JayeshW28",
+    id: 5,
   },
   {
     name: "LeetCode",
     img:"https://i.ibb.co/4S0WJRH/leetcode-1.png",
     link: "https://leetcode.com/jayeshw28/",
+    id: 6,
   },
 ] as const;
 
