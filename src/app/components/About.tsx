@@ -21,8 +21,7 @@ const about = () => {
           I am Jayesh Wankhede, perusing B.Tech graduate in Computer Science Engineering from Indian Institute of Information Technology, Kota (IIITK) specializing in Frontend Development and UI/UX Design. With a natural flair for creativity and critical thinking, I excel in product design and UI/UX. My expertise lies in creating visually appealing and intuitive interfaces, while my strong web development skills enable me to deliver seamless user experiences.
         </p>
       </div>
-
-
+      
       <div className='col-span-8 row-span-3 lg:col-span-3 lg:row-span-3 flex flex-col lg:flex-row font-[Replica-Bold] text-[#19192C] text-5xl font-bold items-center lg:items-start'>
         <p className='hidden lg:block mr-5'>LIN<br/>KS:</p>
         <p className='lg:hidden block w-full'>LINKS:</p>
