@@ -30,6 +30,22 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.loader {
+  animation-name: fadeOut;
+  animation-duration: 0.3s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

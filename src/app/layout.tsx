@@ -6,6 +6,7 @@ import { ToastContainer } from "./nextoast";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
 import ThemeSwitch from "./components/ThemeSwitch";
+import Loader from "./components/Loader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} `}>
+      <Loader/>
         <Header/>
         {children}
         <Footer/>

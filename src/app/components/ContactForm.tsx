@@ -22,10 +22,10 @@ const Contact = () => {
     });
 
     if(response.ok){
-      toast('🦄 Wow so easy!', {
-        position: "top-right",
+      toast('Message sent!', {
+        position: "bottom-center",
         autoClose: 5000,
-        hideProgressBar: false,
+        hideProgressBar: true,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
@@ -35,10 +35,10 @@ const Contact = () => {
         });
     }
     else{
-      toast('error!', {
-        position: "top-right",
+      toast('Message not send!', {
+        position: "bottom-center",
         autoClose: 5000,
-        hideProgressBar: false,
+        hideProgressBar: true,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
@@ -70,7 +70,7 @@ const Contact = () => {
   }
   return (
     <div id='contact' className='lg:h-screen pb-5 h-fit w-full flex flex-col flex-wrap mb-6 lg:justify-center content-center items-center'>
-      <div className='lg:relative z-40 lg:h-screen h-fit w-full flex flex-col flex-wrap justify-start lg:justify-end content-center items-center'>
+      <div className='lg:relative z-30 lg:h-screen h-fit w-full flex flex-col flex-wrap justify-start lg:justify-end content-center items-center'>
         <div className={`${bg_class} w-[68%] absolute hidden rounded-b-lg lg:flex -z-10 h-[56%] bg-[#b9a0ff]`}/>
 
         <div className={`${card_class} flex flex-col lg:absolute w-full h-fit lg:w-[60%] lg:h-[85%] m-2 p-5 space-y-4 z-10 justify-center md:justify-start items-center  font-[Replica-Bold] bg-[#EDFAE4] border-all`}>
