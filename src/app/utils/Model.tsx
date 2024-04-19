@@ -4,9 +4,7 @@ import Spline from '@splinetool/react-spline';
 
 const Model = () => {
   return (
-    <div style={{ width: '100%', height: '100%' }}>
-        <Spline style={{ width: '100%', height: '100%' }} scene="https://prod.spline.design/Ggu4RfwObhwG3HKo/scene.splinecode" />
-    </div>
+    <Spline style={{ width: '100%', height: '100%' }} scene="https://draft.spline.design/4Zbqj2hBvJGV4USz/scene.splinecode" />
   )
 }
 
