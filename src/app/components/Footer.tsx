@@ -76,11 +76,9 @@ const Footer = () => {
                     }
                 </div>
             </div>
-
-
         </div>
 
-      <div className='w-fit text-sm font-[ReplicaPro-Light] font-thin'>Made with Love | Jayesh Wankhede</div>
+      <div className='w-fit text-sm font-[ReplicaPro-Light] font-thin'>Design & Developed by Jayesh Wankhede</div>
     </div>
   )
 }
