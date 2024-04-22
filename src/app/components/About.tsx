@@ -18,7 +18,7 @@ const about = () => {
           I&apos;m Jayesh!
         </div>
         <p className='font-[ReplicaPro-Light] text-xl'>
-          I am Jayesh Wankhede, perusing B.Tech graduate in Computer Science Engineering from Indian Institute of Information Technology, Kota (IIITK) specializing in Frontend Development and UI/UX Design. With a natural flair for creativity and critical thinking, I excel in product design and UI/UX. My expertise lies in creating visually appealing and intuitive interfaces, while my strong web development skills enable me to deliver seamless user experiences.
+          I am Jayesh Wankhede, persuing B.Tech graduate in Computer Science Engineering from Indian Institute of Information Technology, Kota (IIITK) specializing in Frontend Development and UI/UX Design. With a natural flair for creativity and critical thinking, I excel in product design and UI/UX. My expertise lies in creating visually appealing and intuitive interfaces, while my strong web development skills enable me to deliver seamless user experiences.
         </p>
       </div>
       
@@ -93,17 +93,16 @@ const about = () => {
 
       <div className='w-full h-full hidden overflow-y-auto col-span-7 row-span-2 border-all bg-[#DEECEC] text-[#003F30] p-4 lg:flex justify-between items-center'>
         <div className='font-[Replica-Bold] w-1/2 text-4xl self-end'>STACK</div>
-        <div className='flex w-full space-x-2 p-2 rounded-md bg-[#19192c52]'>
+        <div className='flex w-full space-x-2 p-2 rounded-md bg-[#19192cad]'>
             {
               stack.map(stack => (
                 <ul className='flex space-x-1 '>
-                  <li className='bg-black p-1 rounded-[4px]'>
+                  <li className='bg-white bg-opacity-75 hover:bg-opacity-60 p-1 rounded-[4px]'>
                     <img className='size-[100%] cursor-pointer' alt={stack.name} src={stack.img}/>
                   </li>
                 </ul>
               ))
             }
-          {/* <div className='place-self-end self-end h-full w-20 z-20 bg-[#000000]'/> */}
         </div>
       </div>
       <div className='flex text-wrap w-full flex-wrap col-span-4 row-span-5 lg:col-span-2 lg:row-span-2 border-all bg-[#C3FFB2] text-[#003F30] lg:items-center px-5 py-6 lg:py-0'>
