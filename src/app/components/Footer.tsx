@@ -32,7 +32,7 @@ const Footer = () => {
                             }
                         </ul>
                     </div>
-                    <a href='https://drive.google.com/file/d/1dYjGGMpR-etsCm3j0iS7V9l3unl4diNG/view?usp=sharing' target='_blank' className='group cursor-pointer flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
+                    <a href='https://drive.google.com/file/d/1eH1b136pkACOJYmomwmurBSFkMuO0HL5/view?usp=sharing' target='_blank' className='group cursor-pointer flex flex-col w-full justify-between p-4 col-span-2 row-span-1 lg:col-span-2 lg:row-span-2 font-[ReplicaPro-Light] font-bold text-lg lg:text-lg text-[#003F30] bg-[#b9a0ff] border-all hover:shadow-[-6px_6px_0px_#000000] hover:translate-x-[6px] hover:translate-y-[-6px] transition-[cubic-bezier(.31,.5,.86,.67)] duration-[0.25s]'>
                         <p className='flex justify-start'>Resume</p>
                         <div className='flex justify-end'>
                         <div className='border border-[#003F30] px-2 py-1 rounded-[6px]'>
