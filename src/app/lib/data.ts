@@ -189,6 +189,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "CineTix",
+    description:
+      "A movie ticket booking platform with role-based dashboards, ensuring type safety, scalability, and optimized user experience.",
+    tags: ["Next.Js", "tRPC", "ShadCN UI", "Prisma", "Stripe", "MapBox", "Docker"],
+    link: "https://github.com/jayeshw28/CineTix",
+  },
+  {
     title: "iphone-three-js",
     description:
       "This is an single page iPhone 14 pro preview website with 3D preview model using Three.Js, WebGi & GSAP. ",
@@ -213,30 +220,32 @@ export const roles = [
 ] as const;
 
 export const skillsData = [
-  {title:'Data Structures & Algorithms',percent: 60,},
-  {title:'UI/UX Design',percent: 80,},
-  {title:'Web Development',percent: 75,},
-  {title:'Programming',percent: 65,},
+  {title:'Data Structures & Algorithms',percent: 90,},
+  {title:'UI/UX Design',percent: 92,},
+  {title:'Web Development',percent: 88,},
+  {title:'Programming',percent: 94,},
   {title:'Graphic Designing',percent: 85,},
   {title:'Logo Designing',percent: 86,},
   {title:'Sketching',percent: 81,},
 ] as const;
 
 export const languagesData = [
-  {title:'C/C++',percent: 62,},
-  {title:'Python',percent: 51,},
-  {title:'Java',percent: 42,},
+  {title:'C/C++',percent: 88,},
+  {title:'Python',percent: 67,},
+  {title:'Java',percent: 60,},
   {title:'JavaScript',percent: 82,},
+  {title:'TypeScript',percent: 87,},
   {title:'HTML',percent: 96,},
   {title:'CSS/SASS/SCSS',percent: 91,},
-  {title:'SQL',percent: 40,},
+  {title:'SQL',percent: 80,},
 ] as const;
 
  export const toolsData = [
-  {title:'ReactJS',percent: 86,},
-  {title:'NodeJS',percent: 85,},
-  {title:'Framer Motion',percent: 50,},
-  {title:'Bootstrap',percent: 66,},
+  {title:'ReactJs',percent: 90,},
+  {title:'NodeJs',percent: 95,},
+  {title:'Docker',percent: 75,},
+  {title:'Git',percent: 80,},
+  {title:'GitHub',percent: 80,},
   {title:'Express',percent: 45,},
   {title:'Spline',percent: 35,},
   {title:'Blender',percent: 28,},
